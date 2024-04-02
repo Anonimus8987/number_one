@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Condition | Quick.ly</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    {% include "scroll.html" %}
+</head>
+
+<body class="flex flex-col min-h-screen bg-cover bg-fixed" id="journal-scroll" style="background-image: url('{{ bg }}')">
+    <page class="flex-grow">
+        <div>
+            {% include "header.html" %}
+        </div>
+
+        <main class="px-5 py-24">
+            <div class="container mx-auto">
+                <div class="flex flex-col w-full mb-12 text-left lg:text-center">
+                    <h1 class="mb-6 text-2xl font-bold tracking-tighter text-white sm:text-5xl title-font">
+                        Условия использования</h1>
+                </div>
+                <div class="px-32">
+                    <div class="px-4 md:px-6 lg:px-12 py-6 md:py-12 bg-gray-800 bg-opacity-60 rounded-xl">
+                        <div class="w-full">
+                            <div class="mb-8">
+                                <h3 class="mb-5 text-2xl md:text-4xl font-bold leading-9 text-white">
+                                    Условия использования
+                                </h3>
+                                <p class="md:text-xl md:leading-loose text-gray-100 w-11/12 text-justify">
+                                    Условия обслуживания устанавливают правила доступа и использования Quickly для сокращения URL-адреса, включая любые функциональные возможности контента и услуги, предлагаемые Сайтом как в качестве гостя, так и зарегистрированного пользователя.
+                                    <br /><br /> Обязательно внимательно прочтите условия обслуживания перед использованием сайта. На этой странице объясняются условия использования функции «Быстро сократить URL-адрес». Пользователь при использовании сайта обязан принять
+                                    Условия эксплуатации.
+                                </p>
+                            </div>
+                            <div class="pb-8 mb-8 border-b border-gray-300">
+                                <h3 class="mb-5 text-2xl md:text-4xl font-bold leading-9 text-white">Условия использования</h3>
+                                <p class="md:text-xl md:leading-loose text-gray-100 w-11/12 text-justify">
+                                    Quickly доступен для доступа всем пользователям, поэтому при использовании наших сервисов необходимо согласиться с условиями использования. Сервис позволяет сокращать URL-адреса социальных сетей и сайтов в Интернете. Сокращенные URL-адреса не удаляются.
+                                    до тех пор, пока они получают какие-либо жалобы на URL-адрес или если это нарушает нашу политику. В целях предоставления бесплатной и безопасной услуги не разрешается создавать сокращенные URL-адреса, которые перенаправляют на:
+                                </p>
+                                <ul>
+                                    <li class="relative md:text-xl md:leading-loose text-gray-100 w-11/12 pl-6">
+                                        <div class="h-2 w-2 rounded-full bg-white absolute left-0 mt-3"></div>
+                                        Контент, распространяющий фишинг, вредоносное ПО или вирусы.
+                                    </li>
+                                    <li class="relative md:text-xl md:leading-loose text-gray-100 w-11/12 pl-6">
+                                        <div class="h-2 w-2 rounded-full bg-white absolute left-0 mt-3"></div>
+                                        Оскорбительный или подозрительный контент
+                                    </li>
+                                    
+                                <p class="md:text-xl md:leading-loose text-gray-100 w-11/12 text-justify">
+                                    Используя этот Сайт, вы принимаете на себя личную ответственность за результаты своих действий. Вы соглашаетесь принять на себя полную ответственность за любой ущерб или травмы, понесенные вами в результате использования или использования услуги, доступной на этом Сайте, или других доступных ресурсов.
+                                    с этого Сайта. Вы соглашаетесь руководствоваться своим суждением и проводить комплексную проверку, прежде чем предпринимать какие-либо действия или реализовывать какой-либо план или политику, предложенные или рекомендованные на этом Сайте.
+                                </p>
+                            </div>
+                            <div class="pb-8 mb-8 border-b border-gray-300">
+                                <h3 class="mb-5 text-2xl md:text-4xl font-bold leading-9 text-white">Ошибки и упущения</h3>
+                                <p class="md:text-xl md:leading-loose text-gray-100 w-11/12 text-justify">
+                                    Этот Сайт предлагает бесплатные услуги, но не гарантируется его точность, полнота и актуальность. Хотя мы предприняли соответствующие шаги для обеспечения точности информации, мы не можем утверждать, что Сайт не содержит ошибок. Используя Сайт, вы соглашаетесь
+                                    что информация может быть неточной, и несут ответственность за проверку любой полученной информации перед принятием мер.
+                                </p>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </page>
+    <footer class="text-blue-600 body-font">
+        {% include "footer.html" %}
+    </footer>
+</body>
+
+</html>
